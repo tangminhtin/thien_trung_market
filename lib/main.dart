@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:thien_trung_market/ui/thien_trung_market_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    return ThienTrungMarketApp();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
